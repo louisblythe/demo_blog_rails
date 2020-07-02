@@ -34,7 +34,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # Make errors prettier
-gem 'better_errors', '~> 2.4'
+  gem 'better_errors', '~> 2.7', '>= 2.7.1'
 # Bulma CSS
 gem 'bulma-rails', '~> 0.6.1'
 # Simple forms
@@ -60,6 +60,7 @@ group :development do
   gem 'guard', '~> 2.14', '>= 2.14.1'
   # reload the browser after changes to assets/helpers/tests 
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+  # Better Errors
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
